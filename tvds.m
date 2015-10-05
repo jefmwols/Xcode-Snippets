@@ -1,9 +1,9 @@
-// UITableViewDataSource
-// Placeholders for required UITableViewDataSource delegate methods
-// 
-// Platform: iOS
-// Language: Objective-C
-// Completion Scope: Class Implementation
+---
+title: "UITableViewDataSource"
+summary: "Placeholders for required UITableViewDataSource delegate methods"
+platform: iOS
+completion-scope: Class Implementation
+---
 
 #pragma mark - UITableViewDataSource
 
@@ -14,7 +14,7 @@
 - (NSInteger)tableView:(UITableView *)tableView
  numberOfRowsInSection:(NSInteger)section
 {
-    return <#number#>
+    return <#number#>;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView

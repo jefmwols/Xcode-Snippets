@@ -1,9 +1,6 @@
-// Documents Directory Path
-//
-// Platform: All
-// Language: Objective-C
-// Completion Scope: Function or Method
+---
+title: "Documents Directory Path"
+completion-scope: Function or Method
+---
 
-NSArray *documentsSearchPaths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
-NSString *documentsDirectoryString = [documentsSearchPaths firstObject];
-NSURL *documentsDirectoryURL = [NSURL URLWithString:documentsDirectoryString];
+NSURL *documentsDirectoryURL = [NSURL fileURLWithPath:[NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]];
